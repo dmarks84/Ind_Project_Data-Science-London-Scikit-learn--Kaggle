@@ -1,5 +1,4 @@
 ## Ind_Project_Data-Science-London-Scikit-learn--Kaggle
-### Part of the Coursera series: University of Michigan Applied Data Science
     
 ## Summary
 I worked on the Data Science London data set for the Data Science London + Scikit-learn competition.  The dataset provided 40 features that we used to predict a binary classification.  I performed basic exploratory data analysis before creating a combination of pipelines.  Each pipeline incorporated one of three scalers-- StandardScalar, MinMaxScaler, or MaxAbsScaler-- as well as Principal Component Analysis and then a classifier model/estimator.  I used GridSearchCV to determine the best parameters for each unique model type, and iterated through each to determine the best model on the validation data (a subset of the training data provided).  
